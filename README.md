@@ -1,9 +1,24 @@
 # MachineLearningNonLinearOptimization
 
-##### Table of Contents  
-[Abstract](<a name="Abstract"/>)
-[Sec. III. Algorithm Implementation and Development](#Sec.III.AlgorithmImplementationandDevelopment)
-<a name="Sec. III. Algorithm Implementation and Development"/>
+### Table of Contents
+[Abstract](#Abstract)
+<a name="Abstract"/>
+
+[Sec. I. Introduction and Overview](#sec-i-introduction-and-overview)     
+<a name="sec-i-introduction-and-overview"/>
+
+[Sec. II. Theoretical Background](#sec-ii-theoretical-background)     
+<a name="sec-ii-theoretical-background"/>
+
+[Sec. III. Algorithm Implementation and Development](#sec-iii-algorithm-implementation-and-development)
+<a name="sec-iii-algorithm-implementation-and-development"/>
+
+[Sec. IV. Computational Results](#sec-iv-computational-results)
+<a name="sec-iv-computational-results"/>
+
+[Sec. V. Summary and Conclusions](#sec-v-summary-and-conclusions)
+<a name="sec-v-summary-and-conclusions"/>
+
 
 ### Abstract
 This project involves fitting a mathematical model to a dataset using least-squares error. The model is of the form f(x) = Acos(Bx) + Cx + D, and the goal is to find the parameters A, B, C, and D that minimize the error between the model predictions and the actual data. The project also includes generating a 2D loss landscape by fixing two parameters and sweeping through values of the other two parameters. Additionally, the project involves fitting a line, parabola, and 19th degree polynomial to the data using the first 20 or first and last 10 data points as training data, and computing the least-square error for each model on the training and test data.
@@ -23,7 +38,7 @@ In the third part of the project, we fit a line, parabola, and 19th degree polyn
 
 Finally, we compare the results of fitting the models to the first 20 or first and last 10 data points and computing the least-square error on the test data. The code is available on GitHub for further exploration and experimentation.
 
-###  Sec. II. Theoretical Background:
+###  Sec. II. Theoretical Background
 
 **Least-squares error** is a common method for fitting mathematical models to data. It involves finding the parameters of the model that minimize the sum of the squares of the differences between the model predictions and the actual data. This is represented mathematically as:
 
